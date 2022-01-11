@@ -1,0 +1,11 @@
+name: GrapplingHook
+version: 1.0
+main: com.literallyprpl.grapplinghook.Main
+api-version: 1.18
+authors: [ GarrettCox ]
+description: This is a grappling hook plugin.
+commands:
+  gh:
+    description: Grappling hook plugin.
+    permission: gh.give, gh.reload
+    usage: /<command> give, reload
